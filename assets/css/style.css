@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hero {
+    min-height: 561px;
+}
+
+footer {
+    background-color: rgb(27, 175, 234, 0.25);
+    /* background-color: #C5EBFA; */
+}
+
+.footer-bottom {
+    background-color: #1BAFEA;
+}
