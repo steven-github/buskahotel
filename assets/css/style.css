@@ -1,28 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 body {
-	font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .hero {
-	min-height: 561px;
+  min-height: 561px;
 }
 
 @media (min-width: 768px) {
-	.hero {
-		min-height: auto;
-	}
+  .hero {
+    min-height: auto;
+  }
 }
 
 footer {
-	background-color: rgb(27, 175, 234, 0.25);
-	/* background-color: #C5EBFA; */
+  background-color: rgb(27, 175, 234, 0.25);
+  /* background-color: #C5EBFA; */
 }
 
 .footer-bottom {
-	background-color: #1bafea;
+  background-color: #1bafea;
 }
 
 .light-blue-color {
-	color: #1bafea;
+  color: #1bafea;
+}
+
+/* .splide__slide img {
+  width: 100%;
+  height: auto;
+} */
+
+.splide__slide {
+  opacity: 0.3;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+}
+
+.splide--nav > .splide__track > .splide__list > .splide__slide.is-active {
+  border: 2px solid #1f2937 !important;
 }
